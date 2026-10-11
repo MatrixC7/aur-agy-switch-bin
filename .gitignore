@@ -1,0 +1,10 @@
+# Upstream downloaded deb and license
+*.deb
+LICENSE
+
+# Built Arch package
+*.pkg.tar.zst
+
+# makepkg temporary build directories
+src/
+pkg/
